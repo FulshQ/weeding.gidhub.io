@@ -1,0 +1,120 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #491D0B url(../img/background.jpg) no-repeat;
+	background-size: 100%;
+	font-family: 'Bad Script', cursive;
+	color: #ffc400;
+}
+
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.centro {
+	margin: 0px auto;
+}
+
+#logoBorder {
+	border: 3px solid #fff;
+	border-radius: 92px;
+	transform: scale(0.75);
+}
+
+#conteiner {
+	margin: 0px auto;
+	font-size: 25px;
+	width: 99%;
+	height: 20vh;
+}
+
+#container:a {
+	text-decoration: none;
+	color: #ffc400;
+}
+
+.logo {
+	float: left;
+}
+
+
+nav {
+	float: left;
+}
+
+.menu {
+	padding: 0px;
+	margin: 0px;
+	display: block;
+	margin-left: 100px;
+	margin-top: 70px;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 60px;
+	border-bottom: 4px #ffc400 solid;
+	border-top: 1px #ffc400 solid;
+}
+
+.menu a {
+	color: #ffc400;
+	text-decoration: none;
+}
+
+.inform {
+	height: 70vh;
+}
+
+.inform-txt {
+	padding-left: 10px;
+	float: left;
+	width: 400px;
+	
+	margin-left: 10px;
+	margin-top: 20px;
+	font-size: 20px;
+	border-left: 3px outset #ffc400;
+	border-left-style: 90px;
+}
+
+footer {
+	float: right;
+	width: 12%;
+	height: 8vh;
+	margin-right: 15%;
+}
+
+.icon {
+	color: #fff;
+	margin-top: 35px;
+	margin-left: 35%;
+	padding-right: 5px;
+}
+
+footer a {
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 5px;
+	font-family: 'Sedgwick Ave', cursive;
+}
+
+ footer A:hover { 
+     text-decoration: underline;
+     color: #ef6c00;
+}
+
+.link {
+	color: #fff;
+}
